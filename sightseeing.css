@@ -1,6 +1,8 @@
-.h1 {
+h1 {
   text-align: center;
-  text-decoration: underline;
+}
+p {
+  text-align: center;
 }
 
 .container {
@@ -8,12 +10,11 @@
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    height: 30%;
-    width: 30%;
-    background-size: cover;
+    height: 24%;
+    width: 24%;
 }
 
-.image {
+.img-circle {
   opacity: 1;
   height: auto;
   width: 100%;
@@ -22,6 +23,8 @@
   display: inline-block;
   position: relative;
 	margin: auto;
+  margin-top: 10px;
+  border-radius: 50%;
 }
 
 .middle {
@@ -34,10 +37,13 @@
   -ms-transform: translate(-50%, -50%);
   text-align: center;
   display: inline-block;
+  margin-top: 10px;
 }
 
 .container:hover .image {
   opacity: 0.3;
+  top: 50%;
+  left: 50%;
 }
 
 .container:hover .middle {
@@ -49,3 +55,9 @@
   color: white;
   font-size: 16px;
 }
+
+@media (max-width: 600px) {
+    h1, p, .container, .img-circle, .middle, .container:hover .image, .container:hover .middle, .text  {
+        width: 100%;
+        margin-top: 0;
+    }
