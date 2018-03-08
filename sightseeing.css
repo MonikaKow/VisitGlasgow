@@ -37,7 +37,6 @@ p {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
   display: inline-block;
-  margin-top: 10px;
 }
 
 .container:hover .image {
@@ -47,24 +46,33 @@ p {
 }
 
 .container:hover .middle {
-  opacity: 1;
+  opacity: 0.7;
 }
 
 .text {
   background-color: #778899;
   color: white;
   font-size: 16px;
+  margin-right: 30px;
+  opacity: 1;
+}
+
+.hovering-text {
+  margin-top: 100px;
+  margin-right: 10px;
+  margin-left: 10px;
+  opacity: 1;
 }
 
 @media (max-width: 600px) {
     h1, p, .container, .img-circle, .middle, .container:hover .image, .container:hover .middle, .text  {
         width: 100%;
         margin-top: 0;
-    }
+}
 
 #button {
 margin-top: 12px;
 color: white;
 font-size: 15px;
 text-decoration: none;
-    }
+}

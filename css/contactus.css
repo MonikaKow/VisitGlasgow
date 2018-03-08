@@ -72,3 +72,6 @@ input[type=submit]:hover {
   font-size: 15px;
   text-decoration: none;
 }
+.container-fluid {
+  margin-top: 15px;
+}

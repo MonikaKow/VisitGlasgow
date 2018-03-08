@@ -21,15 +21,15 @@
 }
 .container {
   margin-top: 20px;
+  border-radius: 5px;
+  background-color: #cf0058;
+  padding: 20px;
 }
-.container {
-    border-radius: 5px;
-    background-color: #cf0058;
-    padding: 20px;
-}
+
 p {
   font-size: 14pt;
 }
+
 .social-media {
   color: white;
 }
