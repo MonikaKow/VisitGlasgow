@@ -8,7 +8,7 @@ p {
 .container {
     position: relative;
     display: inline-block;
-    margin-left: auto;
+    margin-left: 11px;
     margin-right: auto;
     height: 24%;
     width: 24%;
