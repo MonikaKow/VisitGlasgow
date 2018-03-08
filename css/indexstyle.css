@@ -1,15 +1,37 @@
+#button {
+  margin-top: 12px;
+  color: white;
+  font-size: 15px;
+}
 .title-heading {
-  font-size: 50pt;
+  font-size: 75pt;
+   text-shadow: 3px 3px black;
 }
 .title-subtext {
-  font-size: 20pt;
+  font-size: 50pt;
+  text-shadow: 3px 3px black;
 }
 .explore-glasgow{
   font-size: 35pt;
-}
-.row-headings {
-  font-size: 20pt;
+  color: white;
 }
 .img-circle {
   margin-top: 10px;
+}
+.container {
+  margin-top: 20px;
+}
+.container {
+    border-radius: 5px;
+    background-color: #cf0058;
+    padding: 20px;
+}
+p {
+  font-size: 14pt;
+}
+.social-media {
+  color: white;
+}
+#button {
+  text-decoration: none;
 }

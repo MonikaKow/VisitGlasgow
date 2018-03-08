@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href='css/bootstrap.css' rel='stylesheet'>
   <link href='css/indexstyle.css' rel='stylesheet'>
-  <link href='css/contactus.css' rel='stylesheet'>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -31,7 +30,7 @@
         <li><a href="sightseeingindex.html">Sightseeing</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <div id="button"><li><a href="#"><span class="glyphicon glyphicon-send"></span><a href="ContactUs.html">Contact Us</a></li></div>
+        <div id="button"><li><a href="ContactUs.html"><span class="glyphicon glyphicon-send"></span> Contact Us</a></li></div>
       </ul>
     </div>
   </div>
@@ -49,7 +48,7 @@
       <div class="item active">
         <img src="images/IMG_0931.jpg" alt="University of Glasgow Cloisters">
         <div class="carousel-caption">
-          <h3 class="title-heading" align="center" align="justify">Visit Glasgow</h3>
+          <h3 class="title-heading" align="center" align="justify">Welcome to Visit Glasgow</h3>
           <p class="title-subtext" align="center" align="justify">Scotland with style</p>
         </div>
       </div>
@@ -58,7 +57,7 @@
         <img src="images/oranmor.jpg" alt="Oran Mor">
         <div class="carousel-caption">
           <h3 class="title-heading" align="center" align="justify">Something for Everyone</h3>
-          <p class="title-subtext" align="center" align="justify">The best attractions, restaurants and nightlife that Scotland has to offer.</p>
+          <p class="title-subtext" align="center" align="justify">The best that Scotland has to offer.</p>
         </div>
       </div>
     </div>
@@ -79,23 +78,22 @@
   <div class="row">
     <div class= 'col-sm-6 col-md-6 col-lg-4'>
       <img src='images/buchannanstreet.jpg' class= 'img-circle' style='width:250px;height:250px;' alt='Salmon on Toast'>
-      <p class= "row-headings">About Glasgow</p>
+      <h2>About Glasgow</h2>
+      <p>Learn about Glasgow's unique history and it's culture.</p>
     </div>
 
     <div class= 'col-sm-6 col-md-6 col-lg-4'>
       <img src='images/IMG_5621.jpg' class= 'img-circle' style='width:250px;height:250px;' alt='Salmon on Toast'>
-      <p class= "row-headings">Food and Restaurants</p>
+      <h2>Food and Restaurants</h2>
+      <p>Looking for somewhere to eat in the city? Find out more about Glasgow's best restuarants and learn how to make your own Scottish food</p>
     </div>
 
     <div class= 'col-sm-6 col-md-6 col-lg-4'>
       <img src='images/kelvingrove.jpg' class= 'img-circle' style='width:250px;height:250px;' alt='Kelvingrove Art Gallery'>
-      <p class="row-headings">Sightseeing</p>
+      <h2>Sightseeing</h2>
+      <p> Find out more about Glasgow's attractions including museums, art galleries, parks and more!</p>
     </div>
 
-    <div>
-      <div class="well">
-       <p>Some text..</p>
-      </div>
       <div class="well">
        <p>Some text..</p>
       </div>
@@ -105,8 +103,10 @@
 </div>
 <br>
 
-<footer class="container-fluid text-center">
-  <h2>For More Information:</h2>
+<!-- footer for social media buttons-->
+
+<footer class="navbar navbar-inverse container-fluid text-center">
+  <h3 class ="social-media">Follow Glasgow on Social Media:</h3>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -117,14 +117,16 @@
     font-size: 30px;
     width: 60px;
     height:60px;
-    text-align: center;
-    text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
   }
 
   .fa:hover {
       opacity: 0.7;
+      color: white;
+      text-decoration: none;
   }
 
   .fa-facebook {
@@ -146,6 +148,7 @@
     background: #cb2027;
     color: white;
   }
+
   </style>
   <!-- Socialmedia buttons and links -->
   <a href="https://www.facebook.com/PeopleMakeGlasgow/?hc_ref=ARR8zTGH_P3akVEDZdXSnG-ZInZl71Me40OsvrvSylviY5tzipdqh0vuFWXz1aVz9Bk&fref=nf" class="fa fa-facebook"></a>
@@ -154,8 +157,7 @@
   <a href="https://www.pinterest.co.uk/peoplemakeGLA/" class="fa fa-pinterest"></a>
 <br>
 <br>
-<p>A webpage developed by Rachel Garden and Monika Kownacka for CodeFirst:Girls</p>
-
+<p class="social-media">A webpage developed by Rachel Garden and Monika Kownacka for CodeFirst:Girls</p>
 </footer>
 
 </body>
