@@ -74,3 +74,13 @@ input[type=submit]:hover {
         margin-top: 0;
     }
 }
+
+.social-media {
+  color: white;
+}
+#button {
+  margin-top: 12px;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
