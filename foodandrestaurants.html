@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Food and Restaurants</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1/">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href='css/bootstrap.css' rel='stylesheet'>
+  <link href='css/indexstyle.css' rel='stylesheet'>
+  <link href='css/foodandrestaurants.css' rel='stylesheet'>
+  <script src='javascript/foodandrestaurants.js'></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<!--Navbar at the top of all pages.-->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <img src="images/logo.png" class="navbar-brand" href="https://peoplemakeglasgow.com"> <!--link doesnt work-->
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="visitglasgowindex.html">Home</a></li>
+          <li><a href="#">About Glasgow</a></li>
+          <li><a href="foodandrestaurants.html">Food and Restaurants</a></li>
+          <li><a href="sightseeingindex.html">Sightseeing</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <div id="button"><li><a href="ContactUs.html"><span class="glyphicon glyphicon-send"></span> Contact Us</a></li></div>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Div Filter container-->
+<div class="container text-center">
+  <h1 class="title-headings">Food and Restaurants</h1>
+  <h3 class="title-headings">Eat out or make your own authentic Scottish cuisine.</h3>
+</div>
+<br>
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('restaurants')">Restaurants</button>
+    <button class="btn" onclick="filterSelection('recipes')">Recipes</button>
+  </div>
+
+<!--info on restaurants and recipes-->
+
+  <div class="container">
+    <div class="filterDiv restaurants row">
+      <div class= "column">
+        <h2>Ubiquitous Chip</h2>
+        <h3><em>Artistic brasserie located in the West End of Glasgow.</em></h3>
+        <h4>Address:</h4>
+          <h5>12 Ashton Lane</h5>
+          <h5>Glasgow</h5>
+          <h5>G12 8SJ</h5>
+        </div>
+        <div class="column">
+          <img src="images/ubiquitous-chip.jpg" style="width: 400px; height: 300px;">
+        </div>
+    </div>
+    <div class="filterDiv restaurants row">
+      <div class= "column">
+        <h2>Gandolfi Fish</h2>
+        <h3><em>Smart, comfortable space with a classic menu and some unusual twists, where fresh seafood is key.</em></h3>
+        <h4>Address:</h4>
+          <h5>84-86 Albion Street</h5>
+          <h5>Glasgow</h5>
+          <h5>G1 1NY</h5>
+        </div>
+        <div class="column">
+          <img src="images/gandolfi-fish.jpg" style="width: 400px; height: 300px;">
+        </div>
+    </div>
+    <div class="filterDiv restaurants row">
+      <div class= "column">
+        <h2>Brel</h2>
+        <h3><em>Belgian mews bar for beers and food with bold blue doors opening onto outdoor cobbled seating area.</em></h3>
+        <h4>Address:</h4>
+          <h5>37-43 Ashton Lane</h5>
+          <h5>Glasgow</h5>
+          <h5>G12 8SJ</h5>
+        </div>
+        <div class="column">
+          <img src="images/brel.jpg" style="width: 400px; height: 300px;">
+        </div>
+    </div>
+    <div class="filterDiv restaurants row">
+      <div class= "column">
+        <h2>Turadh</h2>
+        <h3><em>Scottish-styled cafe with tasty treats, fine pieces, and rolls.</em></h3>
+        <h4>Address:</h4>
+          <h5>291 Byres Road</h5>
+          <h5>Glasgow</h5>
+          <h5>G12 8TJ</h5>
+        </div>
+        <div class="column">
+          <img src="images/turadh.jpg" style="width: 400px; height: 300px;">
+        </div>
+    </div>
+    <div class="filterDiv restaurants row">
+      <div class= "column">
+        <h2>Old Salty's</h2>
+        <h3><em>Classic fish and chips with a West End twist.</em></h3>
+        <h4>Address:</h4>
+          <h5>337 Byres Road</h5>
+          <h5>Glasgow</h5>
+          <h5>G12 8TJ</h5>
+        </div>
+        <div class="column">
+          <img src="images/old-saltys.jpg" style="width: 400px; height: 300px;">
+        </div>
+    </div>
+    <div class="filterDiv recipes row">
+      <div class= "column">
+        <h2>Tablet</h2>
+        <h3><em>Sweet and sugary Scottish treat.</em></h3>
+        <h4><b>Ingredients:</b></h4>
+            <h5>2lbs (1 kg) Granulated Sugar</h5>
+            <h5>4 oz (113g) Unsalted Butter (NOT Margarine)</h5>
+            <h5>One 14oz (396g) can of Condensed Milk (NOT Evaporated Milk)</h5>
+            <h5>8 fl. oz (227ml) of Milk</h5>
+            <h5>1 fl. oz (3 dssp) Natural Vanilla Essence</h5>
+
+          <h4><b>Directions:</b></h4>
+            <h5>Lightly grease a baking tray (11 x 19 inches works well) with butter and set aside.</h5>
+            <h5>Put the sugar and milk into a fairly large, preferably heavy stainless steel saucepan (mixture will double in quantity as it heats).</h5>
+            <h5>Stir together.</h5>
+            <h5>Add the butter and condensed milk and stir again.</h5>
+            <h5>Put pan on medium-high heat and bring mixture to the boil (this usually takes somewhere around 10 mins), stirring occasionally.</h5>
+            <h5>Once mixture comes to the boil, reduce the heat until mixture is boiling gently.</h5>
+            <h5>Continue to let it boil for around 20 - 30 minutes, still stirring occasionally.</h5>
+            <h5>Remove saucepan from the heat and add Vanilla Essence... and now comes the 'elbow grease'... beat the mixture vigorously for 4 - 5 minutes, or until the mixture starts to feel more 'stiff' and 'gritty' under the spoon.</h5>
+            <h5>At this point the Tablet is ready to be poured into the baking tray you prepared at the beginning. Allow mixture to cool a little and then mark it off into bars, or squares with a sharp knife.</h5>
+            <h5>Tablet is ready to eat when fully cooled.</h5>
+        </div>
+        <div class="column">
+          <img src="images/tablet.jpg" style="width: 400px; height: 300px;">
+        </div>
+    </div>
+    <div class="filterDiv recipes row">
+      <div class= "column">
+        <h2>Scotch Broth</h2>
+        <h3><em>An easy to make warm and hearty soup. Great for keeping warm during the winter.</em></h3>
+        <h4><b>Ingredients:</b></h4>
+        <h5>250g/8oz carrots, peeled, diced</h5>
+        <h5>250g/8oz turnips, diced</h5>
+        <h5>2 onions, peeled, diced</h5>
+        <h5>1 celery stalk, diced</h5>
+        <h5>1 leek, white part only, sliced</h5>
+        <h5>75-125g/3-4oz pearl barley</h5>
+        <h5>125g/4oz dried peas, soaked in water for 4-5 hours, drained</h5>
+        <h5>salt and freshly ground black pepper</h5>
+        <h5>2.3litres/4 pints lamb or mutton stock</h5>
+        <h5>85g/3oz kale, chopped (optional)</h5>
+        <h5>salt and freshly ground black pepper</h5>
+
+          <h4><b>Directions:</b></h4>
+          <h5>Heat all of the ingredients, except the kale, in a large saucepan until boiling.</h5>
+          <h5>Reduce the heat and simmer gently for a 2-3 hours, or until the peas and pearl barley are soft.</h5>
+          <h5>Stir in the kale and cook for a further 10-12 minutes, or until the kale is tender. Season, to taste, with salt and freshly ground black pepper.</h5>
+        </div>
+        <div class="column">
+          <img src="images/scotch-broth.jpg" style="width: 400px; height: 300px;">
+        </div>
+    </div>
+    <div class="filterDiv recipes row">
+      <div class= "column">
+        <h2>Shortbread</h2>
+        <h3><em>Traditional biscuit usually served with tea and cakes.</em></h3>
+        <h4><b>Ingredients:</b></h4>
+        <h5>125g/4oz butter</h5>
+        <h5>55g/2oz caster sugar, plus extra to finish</h5>
+        <h5>180g/6oz plain flour</h5>
+
+          <h4><b>Directions:</b></h4>
+          <h5>Heat the oven to 190C/375F/Gas 5.</h5>
+          <h5>Beat the butter and the sugar together until smooth.</h5>
+          <h5>Stir in the flour to get a smooth paste. Turn on to a work surface and gently roll out until the paste is 1cm/½in thick.</h5>
+          <h5>Cut into rounds or fingers and place onto a baking tray. Sprinkle with caster sugar and chill in the fridge for 20 minutes.</h5>
+          <h5>Bake in the oven for 15-20 minutes, or until pale golden-brown. Set aside to cool on a wire rack.</h5>
+        </div>
+        <div class="column">
+          <img src="images/shortbread.jpg" style="width: 400px; height: 300px;">
+        </div>
+    </div>
+    <div class="filterDiv recipes row">
+      <div class= "column">
+        <h2>Haggis Neeps and Tatties</h2>
+        <h3><em>Classic Scottish meal of haggis, turnip and potatoes. Traditionally served as a Burn's Supper on Burn's Night.</em></h3>
+        <h4><b>Ingredients:</b></h4>
+        <h5>1 haggis (with natural casing)</h5>
+        <h5>400g neeps (aka swede, yellow turnip)</h5>
+        <h5>500g tatties (potatoes)</h5>
+        <h5>butter</h5>
+        <h5>milk (optional)</h5>
+        <h5>salt and pepper to taste</h5>
+
+          <h4><b>Directions:</b></h4>
+          <h5>First, for the haggis: Bring a largeish saucepan of water to the boil. Place the haggis in the pan and lower the heat so that the water simmers gently - you don't want the haggis to burst! Wrapping your haggis in foil can help prevent this. For a 1kg / 2lb haggis, you'll simmer for a good 75 to 90 minutes, but ask your butcher for best results.</h5>
+          <h5>Meanwhile, peel your neeps and tatties. Cube them, then boil separately till tender (I start this about half an hour before my haggis is finished). Drain, then mash separately with a good bit of butter. If you like, add a glug of milk to get a smoother consistency. Then add salt and pepper to taste.</h5>
+          <h5>Once your haggis is ready, serve alongside the neeps and tatties for a traditional Burns supper.</h5>
+        </div>
+        <div class="column">
+          <img src="images/haggis-neeps-tatties.jpg" style="width: 400px; height: 300px;">
+        </div>
+    </div>
+  </div>
+
+  <!-- footer for social media buttons-->
+<br>
+  <footer class="navbar navbar-inverse container-fluid text-center">
+    <h3 class ="social-media">Follow Glasgow on Social Media:</h3>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--CSS for social media buttons-->
+    <style>
+    .fa {
+      padding: 15px;
+      font-size: 30px;
+      width: 60px;
+      height:60px;
+      margin: 5px 2px;
+      border-radius: 50%;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .fa:hover {
+        opacity: 0.7;
+        color: white;
+        text-decoration: none;
+    }
+
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+
+    .fa-pinterest {
+      background: #cb2027;
+      color: white;
+    }
+
+    </style>
+    <!-- Socialmedia buttons and links -->
+    <a href="https://www.facebook.com/PeopleMakeGlasgow/?hc_ref=ARR8zTGH_P3akVEDZdXSnG-ZInZl71Me40OsvrvSylviY5tzipdqh0vuFWXz1aVz9Bk&fref=nf" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/peoplemakeGLA" class="fa fa-twitter"></a>
+    <a href="https://www.instagram.com/instaglasgow/" class="fa fa-instagram"></a>
+    <a href="https://www.pinterest.co.uk/peoplemakeGLA/" class="fa fa-pinterest"></a>
+  <br>
+  <br>
+  <p class="social-media">A webpage developed by Rachel Garden and Monika Kownacka for CodeFirst:Girls</p>
+  </footer>
+
+</body>
+
+</html>
