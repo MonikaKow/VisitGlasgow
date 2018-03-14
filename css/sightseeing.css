@@ -3,6 +3,7 @@ h1 {
 }
 p {
   text-align: center;
+  font-size: 14pt;
 }
 
 .container {
@@ -12,6 +13,8 @@ p {
     margin-right: auto;
     height: 24%;
     width: 24%;
+    border-radius: 5px;
+    padding: 20px;
 }
 
 .img-circle {
@@ -63,22 +66,21 @@ p {
   margin-left: 10px;
   opacity: 1;
 }
-
-@media (max-width: 600px) {
-    h1, p, .container, .img-circle, .middle, .container:hover .image, .container:hover .middle, .text  {
-        width: 100%;
-        margin-top: 0;
-}
-
-.social-media {
-  color: white;
-}
 #button {
   margin-top: 12px;
   color: white;
   font-size: 15px;
   text-decoration: none;
 }
+.social-media {
+  color: white;
+}
 .container-fluid {
   margin-top: 15px;
+}
+
+@media (max-width: 600px) {
+    h1, p, .container, .img-circle, .middle, .container:hover .image, .container:hover .middle, .text  {
+        width: 100%;
+        margin-top: 0;
 }
