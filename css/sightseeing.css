@@ -70,9 +70,15 @@ p {
         margin-top: 0;
 }
 
+.social-media {
+  color: white;
+}
 #button {
-margin-top: 12px;
-color: white;
-font-size: 15px;
-text-decoration: none;
+  margin-top: 12px;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+.container-fluid {
+  margin-top: 15px;
 }
