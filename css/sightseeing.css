@@ -24,7 +24,7 @@ h2 {
 .container {
     position: relative;
     display: inline-block;
-    margin-left: 11px;
+    margin-left: 10px;
     margin-right: auto;
     height: 24%;
     width: 24%;
@@ -41,7 +41,7 @@ h2 {
   display: inline-block;
   position: relative;
   margin-left: 15px;
-  margin-right: auto;
+  margin-right: 10px;
   margin-top: 10px;
   border-radius: 50%;
 }
