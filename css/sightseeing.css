@@ -40,7 +40,7 @@ h2 {
   backface-visibility: hidden;
   display: inline-block;
   position: relative;
-  margin-left: 11px;
+  margin-left: 15px;
   margin-right: auto;
   margin-top: 10px;
   border-radius: 50%;
@@ -93,9 +93,7 @@ h2 {
 .social-media {
   color: white;
 }
-.container-fluid {
-  margin-top: 15px;
-}
+
 
 @media (max-width: 600px) {
     h1, p, .container, .img-circle, .middle, .container:hover .image, .container:hover .middle, .text  {
