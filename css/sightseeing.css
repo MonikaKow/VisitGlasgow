@@ -69,6 +69,10 @@ h2 {
   left: 50%;
 }
 
+.container-fluid {
+  margin-top: 15px;
+}
+
 .text {
   background-color: #778899;
   color: white;
