@@ -7,6 +7,14 @@
   text-align: center;
 }
 
+#button {
+  margin-top: 12px;
+  margin-right: 10px;
+  color: white;
+  font-size: 15px;
+  background-color: #27271E;
+}
+
 /* Create two equal columns that floats next to each other */
 .column {
     float: left;
